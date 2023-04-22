@@ -6,14 +6,14 @@
   "scripts": {
     "start": "node server.js",
     "server": "nodemon server.js",
-    "client": "npm start --prefix ../",
-    "dev": "concurrently \"npm run client\" \"npm run server\""
+    "client": "npm start --prefix ../"
   },
   "author": "Rithvik",
   "license": "MIT",
   "dependencies": {
     "express": "^4.18.2",
-    "express-fileupload": "^1.4.0"
+    "express-fileupload": "^1.4.0",
+    "http-proxy-middleware": "^2.0.6"
   },
   "devDependencies": {
     "concurrently": "^8.0.1",
